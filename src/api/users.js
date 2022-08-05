@@ -7,7 +7,6 @@ export async function login(email, password) {
         id: result._id,
         username: result.username,
         email: result.email,
-        gender: result.gender,
         accessToken: result.accessToken,
     };
 
@@ -27,7 +26,6 @@ export async function register(email, password) {
         id: result._id,
         username: result.username,
         email: result.email,
-        gender: result.gender,
         accessToken: result.accessToken,
     };
 
